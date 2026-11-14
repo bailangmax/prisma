@@ -11,7 +11,8 @@
     "axios": "^1.19.0",
     "@grpc/grpc-js": "^1.14.4",
     "@grpc/proto-loader": "^0.8.1",
-    "systeminformation": "^5.33.1"
+    "systeminformation": "^5.33.1",
+    "@prisma/composer": "0.38.0"
   },
   "devDependencies": {
     "prisma": "8.0.0-rc.33"
