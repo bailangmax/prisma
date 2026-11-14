@@ -31,3 +31,4 @@ jobs:
           module: module.mjs
           build-command: none
           install-command: npm install
+          prisma-version: 8.0.0-rc.33
