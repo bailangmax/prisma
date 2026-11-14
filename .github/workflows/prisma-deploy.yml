@@ -30,3 +30,4 @@ jobs:
         with:
           module: module.mjs
           build-command: none
+          install-command: npm install
