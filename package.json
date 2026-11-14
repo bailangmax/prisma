@@ -1,39 +1,23 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "This is a node project",
+  "name": "nzws-js",
+  "version": "0.1.0",
+  "description": "nzws-js",
   "main": "index.js",
-  "author": "",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
   "scripts": {
-    "build": "echo ok",
-    "dev": "node index.js",
     "start": "node index.js"
   },
   "dependencies": {
-    "@prisma/composer": "0.28.0",
-    "@prisma/composer-prisma-cloud": "0.28.0",
-    "alchemy": "2.0.0-beta.78",
-    "axios": "latest",
-    "effect": "4.0.0-rc.115"
+    "ws": "^8.21.2",
+    "axios": "^1.19.0",
+    "@grpc/grpc-js": "^1.14.4",
+    "@grpc/proto-loader": "^0.8.1",
+    "systeminformation": "^5.33.1"
+    
+  },
+  "optionalDependencies": {
+    "node-pty": "^1.1.0"
   },
   "engines": {
-    "node": ">=14"
-  },
-  "devDependencies": {
-    "prisma": "8.0.0-rc.21"
-  },
-  "overrides": {
-    "@effect/platform-bun": "4.0.0-rc.115",
-    "@effect/platform-node": "4.0.0-rc.115",
-    "@effect/platform-node-shared": "4.0.0-rc.115",
-    "@effect/sql-d1": "4.0.0-rc.115",
-    "@effect/sql-mysql2": "4.0.0-rc.115",
-    "@effect/sql-pg": "4.0.0-rc.115",
-    "@effect/sql-sqlite-do": "4.0.0-rc.115",
-    "@effect/vitest": "4.0.0-rc.115",
-    "effect": "4.0.0-rc.115"
+    "node": ">=16.0.0"
   }
 }
